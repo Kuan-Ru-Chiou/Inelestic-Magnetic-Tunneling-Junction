@@ -8,5 +8,8 @@ Method: Use the algorithm proposed by Supriyo Datta (quantum transport simulatio
 https://nanohub.org/resources/10262
 
 
+The simulation can capture the electron interacting with the phonon emittion or absorption in the magnetic tunneling junction.
+
+
 
 
