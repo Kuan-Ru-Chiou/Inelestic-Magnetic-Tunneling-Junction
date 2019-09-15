@@ -102,11 +102,9 @@ NE = length(E);
    Jz3 = 0; Jx3 =0; Jy3 = 0;
    
    
-   
-  
      
      U = [0.5*V*ones(1,NL) V*linspace(0.5,-0.5,NOx) -0.5*V*ones(1,NR)] + UBB;
-%      U = [0.5*V*ones(1,NL) V*linspace(0.5,-0.5,NOx) -0.5*V*ones(1,NR)] ;
+%    U = [0.5*V*ones(1,NL) V*linspace(0.5,-0.5,NOx) -0.5*V*ones(1,NR)] ;
      U = kron(diag(U),eye(2));
    
    
@@ -141,8 +139,7 @@ Iin = zeros(Np+1,NE);
      fL(k) = 1/(1+exp((E(k)-mu1)/kT));
      fR(k) = 1/(1+exp((E(k)-mu2)/kT)); 
      
-   
-     
+
      %%%%%%%%%%%%%%%%
 %      ka1 =  acos(1- (E(k)-U(1))/2*tf);
 %      ka2 = acos(1- (E(k)-exchange-U(1))/2*tf);
@@ -227,11 +224,7 @@ Iin = zeros(Np+1,NE);
      for j = 1:Np-1
      Iin(j+1,k)=(1i)*(trace(HH(2*j-1:2*j,2*j+1:2*j+2)*Gn(2*j+1:2*j+2,2*j-1:2*j,k)-HH(2*j+1:2*j+2,2*j-1:2*j)*Gn(2*j-1:2*j,2*j+1:2*j+2,k)));
      end
-       
-     
-     
-     
-     
+
     end
     
     
@@ -320,23 +313,4 @@ colorbar; shading interp;
  ylabel('Energy');
  title('energy resolved current 1/eV ');
  
-
-
-
-
-
- 
- 
-
-
-  
-
-
-
-
-
-
-
-
-
 
