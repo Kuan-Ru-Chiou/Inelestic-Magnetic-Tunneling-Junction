@@ -12,6 +12,20 @@ Use the algorithm proposed by Supriyo Datta paper (quantum transport simulation 
 https://nanohub.org/resources/10262
 
 -----------------------------------------------------------------------------------------------------------------------
+
+## Device geometry :
+
+![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/PHD%E5%8F%A3%E8%A9%A6---presentation.jpg) 
+
+
+
+
+
+
+
+
+----------------------------------
+
 ## Numerical Flowchart :
 
 ![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/22.jpg) 
