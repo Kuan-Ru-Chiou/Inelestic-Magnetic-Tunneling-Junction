@@ -22,6 +22,11 @@ Inelastic NEGF simulation flow chart. Adapt from Supriyo Datta inelastic in NEGF
 
 
 
+## Simulation Input parameters:
+
+![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/55.jpg) 
+
+
 ## Numerical results :
 
 ![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/11.jpg) 
