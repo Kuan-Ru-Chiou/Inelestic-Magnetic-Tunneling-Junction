@@ -10,9 +10,12 @@
 
 ## Numerical Method : 
 
-Use the algorithm proposed by Supriyo Datta (quantum transport simulation pioneer group).
+Use the algorithm proposed by Supriyo Datta paper (quantum transport simulation pioneer group).
 https://nanohub.org/resources/10262
 
+
+
+## Numerical results :
 
 
 
