@@ -15,7 +15,7 @@ mf =  0.73*m0        %FM effective mass
 mO =  0.32*m0        %Oxside effective mass
 a = 1e-10;       %MgO unit cell length ( I don't know real value , This is come from some article. Please check)
 zplus = 1i*1e-18;
-kT = 0.025; %ev in room temp.ก@ก@  % KT = 0.00025  A0 =0.05 hw = 1e-5 exchange =0 for phonon bias  good
+kT = 0.025; %ev in room temp.ยก@ยก@  % KT = 0.00025  A0 =0.05 hw = 1e-5 exchange =0 for phonon bias  good
 KTs = kT;
 IE = q*q/(2*pi*hbar); % A/ev
 tO = (hbar^2)/(2*mO*(a^2)*q); %Oxside hopping energy (eV)  (oxide a and Fe a using the same value because i dont know real value)
@@ -62,11 +62,6 @@ UB = kron(diag(UBB),eye(2));
 H = zeros(2*Np,2*Np);
 H = H+alphaL+alphaR+alphaox+beta+beta';
 
-
-
-
-
-  
 %Scattering related data
 % hw = 0.0001*tf;
 hw = 1e-2;
@@ -79,13 +74,6 @@ Dab = N*A0*eye(2*Np);
 Dem =(N+1)*A0*eye(2*Np);
   
 
-
-
-
-
-
-
- 
 %    Jz = 0; Jx =0; Jy = 0; %initialize spin current in Jzy Jxy Jyy (transport in y direction)
 %    Dos =0;
 %    
@@ -192,9 +180,7 @@ mu2 = Ef-0.5*V(iv);
      Gp(:,:,k) = A(:,:,k)-Gn(:,:,k);
    end
    
-   
-   
- 
+ %%% inelastic phonon loop
     err = 1000;
      
     while err > 1e-7
@@ -229,7 +215,7 @@ mu2 = Ef-0.5*V(iv);
     
     
     
-       %calculate I
+    %calculate I
     for k = 1:NE
       
     I1(k,iv) = real(trace(gam1in(:,:,k)*A(:,:,k)-gam1(:,:,k)*Gn(:,:,k)));
@@ -239,16 +225,8 @@ mu2 = Ef-0.5*V(iv);
     
     
     
-    
-    
-    
 %     HH = H+U;
 %     
-    
-    
-     
-    
-    
     
     
 end
@@ -339,17 +317,10 @@ II1 = sum(I1(:,1:Nv),1)*dE;
 %     Jyy1(i,k) = Jy1;
 %     
     
-    
-    
-    
+
 
 % Ipp(i) = I;
 %       
-  
-   
-
- 
-
 
 
 %%every bias spin current at the right oxide FM interface 
@@ -380,18 +351,4 @@ II1 = sum(I1(:,1:Nv),1)*dE;
 %    J00(i) = (-1)*trace(H(2*i+1:2*i+2,2*i-1:2*i)*Gless(2*i-1:2*i,2*i+1:2*i+2) - H(2*i-1:2*i,2*i+1:2*i+2)*Gless(2*i+1:2*i+2,2*i-1:2*i));
 % end
 % 
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
 
