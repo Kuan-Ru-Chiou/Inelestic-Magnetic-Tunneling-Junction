@@ -1,7 +1,8 @@
 # Inelestic-Magnetic-Tunneling-Junction
 
 
-## Abstract : We model the magnetic tunneling junction based on Fe/MgO/Fe structure for inelastic and elastic quantum transport problems. We observe that the optical phonon effect is more participated in the high bias condition, V > 0.4 ( see Fig. 1), which is consistent with the paper [https://ieeexplore.ieee.org/document/4294218]. In addition, We also observe that the elecrons relax energy from the source to the drain transport due to the inelastic optical phonon effect  (see Fig.2).
+## Abstract : 
+We model the magnetic tunneling junction based on Fe/MgO/Fe structure for inelastic and elastic quantum transport problems. We observe that the optical phonon effect is more participated in the high bias condition, V > 0.4 ( see Fig. 1), which is similar to the paper [https://ieeexplore.ieee.org/document/4294218]. In addition, We also observe that the elecrons relax energy from the source to the drain transport due to the inelastic optical phonon effect  (see Fig.2).
 
 
 
