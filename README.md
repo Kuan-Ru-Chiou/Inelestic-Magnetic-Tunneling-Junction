@@ -29,7 +29,7 @@ Inelastic NEGF simulation flow chart. Adapt from Supriyo Datta inelastic in NEGF
 
 ![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/11.jpg) 
 
-Fig 1. The current voltage characteristic curves for different scattering strengths. The result is similar to the paper [91] which shows that the current versus voltage curves are insensitive to the optical phonon under the low applied external voltages.  
+Fig 1. The current voltage characteristic curves for different scattering strengths. The result is similar to the paper [https://ieeexplore.ieee.org/document/4294218] which shows that the current versus voltage curves are insensitive to the optical phonon under the low applied external voltages.  
 
 
 
