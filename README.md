@@ -17,6 +17,14 @@ https://nanohub.org/resources/10262
 
 ## Numerical results :
 
+![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/11.jpg) 
+
+
+
+![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/12.jpg) 
+
+
+
 
 
 
