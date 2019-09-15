@@ -17,6 +17,7 @@ https://nanohub.org/resources/10262
 ![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/22.jpg) 
 
 Inelastic NEGF simulation flow chart. Adapt from Supriyo Datta inelastic in NEGF simulation.
+
 ------------------------------------------------------------------------------------------------------------------------
 
 
