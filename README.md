@@ -14,6 +14,12 @@ Use the algorithm proposed by Supriyo Datta paper (quantum transport simulation 
 https://nanohub.org/resources/10262
 
 
+## Numerical Flowchart :
+
+![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/22.jpg) 
+
+
+
 
 ## Numerical results :
 
