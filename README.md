@@ -5,28 +5,26 @@
 
 
 
-
-
-
+-----------------------------------------------------------------------------------------------------------------------
 ## Numerical Method : 
 
 Use the algorithm proposed by Supriyo Datta paper (quantum transport simulation pioneer group).
 https://nanohub.org/resources/10262
 
-
+-----------------------------------------------------------------------------------------------------------------------
 ## Numerical Flowchart :
 
 ![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/22.jpg) 
 
 Inelastic NEGF simulation flow chart. Adapt from Supriyo Datta inelastic in NEGF simulation.
-
+------------------------------------------------------------------------------------------------------------------------
 
 
 ## Simulation Input parameters:
 
 ![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/55.jpg) 
 
-
+-------------------------------------------------------------------------------------------------------------------------
 ## Numerical results :
 
 ![kk](https://github.com/Kuan-Ru-Chiou/Pic/blob/master/11.jpg) 
